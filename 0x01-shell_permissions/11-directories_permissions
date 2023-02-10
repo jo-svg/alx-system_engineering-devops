@@ -1,3 +1,2 @@
-#!/bin/bash
-chmod –r +x current directory
-
+ #!/bin/bash
+find . -type d -exec chmod ugo+x {} +
